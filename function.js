@@ -134,7 +134,7 @@ checkbox : checkbox ?? null
 };
 
 
-      const urlStart = "https://transrep.cmar-paca.fr:2020/getSheetData";
+      const urlStart = "https://script.google.com/a/macros/cmar-paca.fr/s/AKfycbz3CWxoSPon8JYTYC7kE1TWDXD8z18M7BySEVyZdJiWI6g4EXmIxlpCUL9yIxjRtnaA/exec";
         fetch(urlStart, {
           method: 'POST',
           headers: {
